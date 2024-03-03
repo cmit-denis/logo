@@ -4,17 +4,54 @@
         <meta charset="utf-8">
         <title>Горизонтальный список в HTML5</title>
         <style>
-            ul#menu li {
-                display:inline;
+            #rew_button {
+                padding:3px 5px 5px 5px;
+                text-align: center;
+                margin:0px;
+                width: 200px;
+                height: 60px;
+                background:#FF931E;
+                z-index:15;
+                border-radius: 5px 5px 0px 0px;
+                -moz-transform:rotate(-90deg);
+                -ms-transform:rotate(-90deg);
+                -o-transform:rotate(-90deg);
+                -webkit-transform:rotate(-90deg);
+                transform-origin: bottom right;
+                position: fixed;
+                right: 0px;
+            }
+            #rew_button p {
+                color:#fff;
+                display:inline-block;
+                line-height:40px;
+                font-size: large;
+                font-family: 'Ubuntu Condensed', sans-serif;
             }
         </style>
     </head>
     <body>
-        <ul id="menu">
-            <li>Главная</li>
-            <li>Блог</li>
-            <li>Форум</li>
-            <li>О сайте</li>
-        </ul>
+        <div style="display:flex">
+            <img src="image/reviews/rew1.jpg" width="165" height="165">
+                 <div class="text">
+                   Starbound --- игра разработанная Chucklefish. Жанр игры песочница, платформер. 
+                <br>Имеет 2D пикельную графику. Вышла в 2016 году. 
+                    <br>Доступна в Steam и стоит 299 рублей. 
+                    <br>На данный момент последняя версия 1.4.4 Bounty Hunter Update
+                    <br>
+                    <br>
+                    Системные требования: 
+                    <br>ОС: Windows Vista - 10 
+                    <br>Оперативная память: 2 ГБ 
+                    <br>Процессор: Core 2 duo 
+                    <br>Видеокарта: 256 МБ
+                    <br>Памяти на жестком диск: 4 ГБ
+                 </div>
+            </div>
+
+            <div id="rew_button">
+                <p>Оставить отзыв</p>
+            </div>
+
     </body>
 </html>

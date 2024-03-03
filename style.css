@@ -1,5 +1,64 @@
 @import url('https://fonts.googleapis.com/css?family=Ubuntu+Condensed');
 
+.data_text {
+    width: 80%;
+    float: left;
+    font-size: large;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    color:rgb(92, 18, 18);
+}
+
+/*Отзывы*/
+
+.rew_text {
+    margin: 1% 1% 1% 1%;
+    font-size: large;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    color:rgb(92, 18, 18);
+}
+
+.reviews_block {
+    background-color: #feb386;
+    width: 90%;
+    margin: 3% 0 1% 5%;
+    display:flex;
+    border-radius: 0 10px;
+    padding: 10px 10px;
+}
+
+.img_rew {
+    margin: 1% 1% 1% 1%;
+    width: 20%;
+}
+
+/*Кнопка*/
+#rew_button {
+    padding:3px 5px 10px 5px;
+    text-align: center;
+    margin-bottom: 1%;
+    width: 200px;
+    height: 60px;
+    background:#FF931E;
+    z-index:10;
+    border-radius: 5px 5px 0px 0px;
+    -moz-transform:rotate(-90deg);
+    -ms-transform:rotate(-90deg);
+    -o-transform:rotate(-90deg);
+    -webkit-transform:rotate(-90deg);
+    transform-origin: bottom right;
+    position:fixed;
+    right: 0px;
+    top: 50%;
+}
+#rew_button p {
+    color:#fff;
+    display:inline-block;
+    line-height:40px;
+    font-size: large;
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+/*######*/
+
 .poster {
     float: right;
     /*background-color: coral;*/
@@ -17,7 +76,7 @@ body {
     width: 80%;
     margin-right: 2.5%;
     background-color: #feb386;
-    height: 50px;
+    min-height: 50px;
     padding: 10px 10px 10px 10px;
     border-radius: 0 10px;
 }
