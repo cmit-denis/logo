@@ -1,9 +1,10 @@
 import os
-print("Введите название пособия:")
-name = input()
-print("Введите название файла:")
-upload = input()
+
 with open("/home/denchik/develop/logo/parents (копия).html", "r+") as f:
+    print("Введите название пособия:")
+    name = input()
+    print("Введите название файла:")
+    upload = input()
     part = f.read()
     print(part)
     l = len(part)
