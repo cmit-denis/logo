@@ -1,6 +1,6 @@
 import os
 
-with open("/home/denchik/develop/logo/parents (копия).html", "r+") as f:
+with open("/home/denchik/develop/logo/parents.html", "r+") as f:
     print("Введите название пособия:")
     name = input()
     print("Введите название файла:")
@@ -16,7 +16,7 @@ with open("/home/denchik/develop/logo/parents (копия).html", "r+") as f:
 
 os.system("git add ..")
 os.system("git status")
-os.system('git commit -m "auto add ' + name + '"')
+os.system('git commit -m "auto add ' + name + ' in parents"')
 os.system("git pull")
 os.system("git push -u origin main")
 print("Готово")
